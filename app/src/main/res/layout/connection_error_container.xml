@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <ImageView
+        android:id="@+id/error_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/todo"/>
+
+    <TextView
+        android:id="@+id/error_message"
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:text="@string/network_error"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/error_message2"
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:text="@string/network_error2"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/error_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.MaterialComponents.Subtitle2"
+        android:paddingTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/click_to_retry"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"/>
+
+</LinearLayout>

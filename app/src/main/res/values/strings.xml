@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">MusicTube</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_hot">Hot Music</string>
+    <string name="title_trending">Trending Artists</string>
+    <string name="title_music">Library</string>
+    <string name="track_name">Track Name</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="todo">To Do</string>
+    <string name="bullet">\u2022</string>
+    <string name="search_hint">Search Music</string>
+    <string name="buffering">Buffering &#8230;</string>
+    <string name="download_started">Download Started</string>
+    <string name="download_dialog_title">Download</string>
+    <string name="cancel">Cancel</string>
+    <string name="unmount_sd_card">Cannot mount sdcard</string>
+    <string name="creating_folder_error">Cannot create folder</string>
+    <string name="download_successful">Download Successful</string>
+    <string name="download_error">Download Error</string>
+    <string name="download_dialog_content">Something</string>
+    <string name="play">Play</string>
+    <string name="go_to_album">Go To Album</string>
+    <string name="go_to_artist">Go To Artist</string>
+    <string name="download">Download</string>
+    <string name="unknown_license">License not enabled</string>
+    <string name="songs">Songs</string>
+    <string name="no_results">No Results</string>
+
+    <string name="license_url">License Url</string>
+    <string name="go_to_track">Go To Track</string>
+
+    <string name="artist_no_url">We can\'t find artist web-page</string>
+    <string name="track_no_url">We can\'t find track web-page</string>
+    <string name="no_license_url">Maybe there is broken url, sorry</string>
+
+    <string name="go_to_artist_page">Go To Artist Page</string>
+    <string name="go_to_track_page">Go To Track Page</string>
+
+    <string name="artist_website">Artist Website</string>
+    <string name="artist_wiki">Artist Wiki</string>
+    <string name="artist_page">Artist Page</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="feedback">Send Feedback</string>
+    <string name="up_next">Up Next</string>
+    <string name="go_to_cc_license">CC License</string>
+
+    <string name="search_error">No Results</string>
+    <string name="search_error2">We didn\'t find anything for this request. Try something else.</string>
+    <string name="click_to_retry">RETRY</string>
+    <string name="network_error">No internet connection</string>
+    <string name="network_error2">Check your Wi-Fi or mobile data</string>
+    <string name="tracks_not_found">No tracks found</string>
+    <string name="tracks_not_found2">Try to download any track from Hot Music or Trending Music tabs</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_confirm_dialog">Permission Confirm Dialog</string>
+    <string name="read_external_storage_permission_rationale">You won\'t be able to play tracks stored on the device\'s storage unless you grant READ EXTERNAL STORAGE PERMISSION to access it.</string>
+    <string name="write_external_storage_permission_rationale">You won\'t be able to download tracks unless you grant WRITE EXTERNAL STORAGE PERMISSION to access it.</string>
+
+    <string name="privacy_policy_url">https://docs.google.com/document/d/1bwH4Q9FM5Z749S2u9E1hyZo9wUh4O6kdGaik9UmNm7w/edit?usp=sharing</string>
+    <string name="email_url">km.freemusic@yahoo.com</string>
+    <string name="feedback_email">Feedback MusicTube v1.0.0</string>
+    <string name="send_feedback">Send Feedback:</string>
+    <string name="email_type">text/email:</string>
+    <string name="email_dear">Dear &#8230;,</string>
+
+</resources>

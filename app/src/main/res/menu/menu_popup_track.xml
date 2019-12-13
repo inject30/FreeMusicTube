@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/popup_track_goto_artist_page"
+        android:title="@string/go_to_artist_page" />
+
+    <item
+        android:id="@+id/popup_track_goto_track_page"
+        android:title="@string/go_to_track_page" />
+
+    <item
+        android:id="@+id/popup_track_cc_license"
+        android:title="@string/go_to_cc_license" />
+
+</menu>

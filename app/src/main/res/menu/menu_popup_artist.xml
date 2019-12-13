@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/popup_artist_website"
+            android:title="@string/artist_website" />
+
+    <item
+            android:id="@+id/popup_artist_page"
+            android:title="@string/artist_page" />
+
+    <item
+            android:id="@+id/popup_artist_wiki"
+            android:title="@string/artist_wiki" />
+
+</menu>

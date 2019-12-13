@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.free.music.tube">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+            android:name="com.free.music.tube.application.App"
+            android:allowBackup="true"
+            android:fullBackupContent="@xml/backup_descriptor"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:usesCleartextTraffic="true"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+                android:name="com.free.music.tube.activities.MainActivity"
+                android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme.NoActionBar"
+                android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.free.music.tube.activities.PermissionActivity"
+                android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+    </application>
+
+</manifest>
