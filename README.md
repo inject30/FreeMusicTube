@@ -1,6 +1,6 @@
 # MusicTube
 
-This project was created for fun to use latest android technologies for development. This project is no longer in active development.
+This project was created more than an year ago for fun to use modern android technologies for development. This project is no longer in active development.
 
 ## Screenshots
 
