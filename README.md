@@ -1,4 +1,6 @@
- MusicTube
+# MusicTube
+
+This project is no longer in active development.
 
 ## Screenshots
 
@@ -9,3 +11,11 @@
 <img src="https://github.com/inject30/FreeMusicTube/blob/master/screens/5.png" width="360" height="640">
 <img src="https://github.com/inject30/FreeMusicTube/blob/master/screens/6.png" width="360" height="640">
 <img src="https://github.com/inject30/FreeMusicTube/blob/master/screens/7.png" width="360" height="640">
+
+
+### Features
+- Material design
+- Browse Songs, Albums, Artists
+- Search Music
+- Download Music
+- Listen Music
